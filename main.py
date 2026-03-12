@@ -1,6 +1,6 @@
 def merge_sort(array):
     if len(array) <= 1:
-        return
+        return # base case to stop recursion
     
     middle_point = len(array) // 2
     left_part = array[:middle_point]
@@ -34,8 +34,8 @@ def merge_sort(array):
 
 
 if __name__ == '__main__':
-    numbers = [4, 10, 6, 14, 2, 1, 8, 5]
+    numbers = [4, 10, 6, 14, 2, 1, 8, 5] # list example
     print('Unsorted array: ')
     print(numbers)
     merge_sort(numbers)
-    print('Sorted array: ' + str(numbers))
+    print(f'Sorted array:  {str(numbers)}')

@@ -1,5 +1,5 @@
 # Merge Sort Algorithm
-Merge Sort is a classic Divide and Conquer algorithm used to sort collections of data efficiently. The logic follows three main steps:
+A classic Divide and Conquer algorithm used to sort collections of data efficiently. The logic follows three main steps:
 1. **Divide**: Splitting the array into smaller sub-arrays.
 2. **Conquer**: Sorting these sub-arrays recursively.
 3. **Combine**: Merging the sorted sub-arrays back into a single sorted array.
